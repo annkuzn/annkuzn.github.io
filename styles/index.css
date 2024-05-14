@@ -1,0 +1,94 @@
+@import "colors.css";
+@import "header.css";
+
+@font-face {
+	font-family: "Muller Regular";
+	src: local("../../fonts/Muller/Muller-Trial-Regular"),
+		url("../fonts/Muller/Muller-Trial-Regular.woff2") format("woff2"),
+		url("../fonts/Muller/Muller-Trial-Regular.woff") format("woff"),
+		url("../fonts/Muller/Muller-Trial-Regular.ttf") format("ttf");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Muller Bold";
+	src: local("../fonts/Muller/Muller-Trial-Bold"),
+		url("../fonts/Muller/Muller-Trial-Bold.woff2") format("woff2"),
+		url("../fonts/Muller/Muller-Trial-Bold.woff") format("woff"),
+		url("../fonts/Muller/Muller-Trial-Bold.ttf") format("ttf");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Muller Extra Bold";
+	src: local("../fonts/Muller/Muller-Trial-ExtraBold"),
+		url("../fonts/Muller/Muller-Trial-ExtraBold.woff2") format("woff2"),
+		url("../fonts/Muller/Muller-Trial-ExtraBold.woff") format("woff"),
+		url("../fonts/Muller/Muller-Trial-ExtraBold.ttf") format("ttf");
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "Muller Black";
+	src: local("../fonts/Muller/Muller-Trial-Black"),
+		url("../fonts/Muller/Muller-Trial-Black.woff2") format("woff2"),
+		url("../fonts/Muller/Muller-Trial-Black.woff") format("woff"),
+		url("../fonts/Muller/Muller-Trial-Black.ttf") format("ttf");
+	font-weight: 900;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+
+	font-family: Muller Regular, sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+	font-family: Muller Extra Bold, sans-serif;
+	font-size: 45px;
+	line-height: 55px;
+}
+
+h2 {
+	font-family: Muller Extra Bold, sans-serif;
+	font-size: 35px;
+	line-height: 45px;
+}
+
+h3 {
+	font-family: Muller Black, sans-serif;
+	font-size: 24px;
+	line-height: 1.2;
+}
+
+h4 {
+	font-family: Muller Bold, sans-serif;
+	font-size: 18px;
+	line-height: 55px;
+}
+
+h5 {
+	font-family: Muller Extra Bold, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+}

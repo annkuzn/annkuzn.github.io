@@ -1,0 +1,14 @@
+:root {
+	--background: rgb(255, 255, 255); /* #ffffff */
+
+	--yellow-light: rgb(255, 196, 104); /* #ffc468 */
+	--yellow: rgb(255, 175, 24); /* #ffaf18 */
+
+	--brown: rgb(185, 145, 80); /* #b99150 */
+	--brown-dark: rgb(164, 107, 0); /* #a46b00 */
+
+	--dark: rgb(24, 26, 26); /* #181a1a */
+	--deep-dark: rgb(56, 36, 0); /* #382400 */
+
+	--shadow: rgba(152,152,152,0.2);
+}
