@@ -3,6 +3,7 @@
 @import "../components/main/main.css";
 @import "../components/promo/promo.css";
 @import "../components/showcase/showcase.css";
+@import "../components/delivery/delivery.css";
 
 @font-face {
 	font-family: "Muller Regular";
@@ -97,8 +98,4 @@ h4 {
 h5 {
 	font-family: Muller Extra Bold, sans-serif;
 	font-size: 16px;
-}
-
-main {
-	margin: 0 360px;
 }

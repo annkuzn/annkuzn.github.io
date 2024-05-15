@@ -1,7 +1,16 @@
+.main {
+	margin: 0 360px;
+	padding: 0 0 105px 0;
+}
+
 .main__promo {
 	margin-top: 132px;
 }
 
 .main__showcase {
 	margin-top: 160px;
+}
+
+.main__delivery {
+	margin-top: 239px;
 }

@@ -72,6 +72,27 @@
 		<section class="showcase main__showcase">
 			<h2 class="showcase__title">Выберите свою любимую пиццу</h2>
 		</section>
+		<section class="delivery main__delivery">
+			<div>
+				<h2 class="delivery__title">
+					Хватит думать!
+					<br/>
+					Доставим заказ за 30 минут!
+				</h2>
+				<p class="delivery__description">
+					Мы гарантированно доставим вашу пиццу за&nbsp;30&nbsp;минут с&nbsp;момента оформления заказа. Если мы опоздаем даже на&nbsp;1&nbsp;минуту - вы получаете весь заказ бесплатно и ваучер на&nbsp;скидку на&nbsp;следующий заказ. Мы гордимся нашим сервисом и сделаем всё, чтобы наш клиент был доволен и не&nbsp;остался голодный!
+				</p>
+			</div>
+			<form class="delivery-form delivery__form" action="/" method="post">
+				<input class="delivery-form__input" type="text" placeholder="Ваше имя" autocomplete="name" required>
+				<input class="delivery-form__input" type="text" autocomplete="street-address" placeholder="Адрес доставки" required>
+				<input class="delivery-form__input" type="tel" placeholder="Телефон" autocomplete="tel" required>
+				<button class="delivery-form__button" type="submit">
+					<h5>Оформить заказ</h5>
+				</button>
+			</form>
+			<img class="delivery__img" src="/assets/images/pizza_slice.png" alt="аппетитный кусок пиццы">
+		</section>
 	</icons>
 	<script type="module" src="index.js"></script>
 </body>

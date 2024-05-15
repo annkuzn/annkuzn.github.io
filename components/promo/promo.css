@@ -8,6 +8,7 @@
 	line-height: 55px;
 	color: var(--yellow);
 }
+
 .promo-content__header::first-line {
 	color: var(--brown);
 }
