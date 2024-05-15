@@ -15,15 +15,12 @@
 	align-items: center;
 }
 
-.menu__item {
+.menu__link {
+	position: relative;
 	margin-right: 50px;
 
 	text-wrap: nowrap;
 	color: var(--brown-dark);
-}
-
-.menu__link {
-	position: relative;
 
 	color: var(--brown-dark);
 }
@@ -37,6 +34,7 @@
 	display: block;
 	width: 0;
 	height: 3px;
+
 	background: var(--brown-dark);
 
 	transition: 0.3s;
