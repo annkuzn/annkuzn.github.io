@@ -1,4 +1,4 @@
-const deliveryForm = document.querySelector('.delivery__form');
+const deliveryForm = document.querySelector('.delivery-form');
 
 deliveryForm.addEventListener('submit', async (e) => {
 	e.preventDefault();
@@ -23,4 +23,12 @@ deliveryForm.addEventListener('submit', async (e) => {
 
 		body.classList.add('popup-open');
 	})
+});
+
+deliveryForm.elements.name.addEventListener('input', (e) => {
+	const lastChar = e.target.value[e.target.value.length - 1];
+
+	if(lastChar === '.') {
+		e.target.value = e.target.value.slice(0, -1);
+	}
 });
