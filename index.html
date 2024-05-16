@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header class="header">
-		<div class="header__content">
+		<div class="header__content close">
 			<div class="logo">
 				<img class="logo__img" src="/assets/images/logo.png" alt="логотип">
 				<h3 class="logo__text">Pizza cheff</h3>
@@ -19,6 +19,9 @@
 				<a class="menu__link" href="/">Доставка и оплата</a>
 				<a class="menu__link" href="/">Контакты</a>
 			</nav>
+			<button class="menu__button" type="menu">
+				<div class="menu__pseudo"></div>
+			</button>
 		</div>
 	</header>
 	<main class="main">
@@ -30,7 +33,7 @@
 					<br />
 					только в Pizza Chef f
 				</h1>
-				<ul class="advantages">
+				<ul class="advantages promo__advantages">
 					<li class="advantages__item">
 						<img class="advantages__item-img" src="assets/icons/rye.png" alt="">
 						<div>
@@ -61,8 +64,8 @@
 					</li>
 				</ul>
 			</div>
-			<div class="promo__img">
-				<img src="assets/images/pizza_big.png" alt="вкуснейшая пицца">
+			<div class="promo__img-container">
+				<img class="promo__img" src="assets/images/pizza_big.png" alt="вкуснейшая пицца">
 			</div>
 			</div>
 			<button class="promo__button">
@@ -73,16 +76,14 @@
 			<h2 class="showcase__title">Выберите свою любимую пиццу</h2>
 		</section>
 		<section class="delivery main__delivery">
-			<div>
-				<h2 class="delivery__title">
-					Хватит думать!
-					<br/>
-					Доставим заказ за 30 минут!
-				</h2>
-				<p class="delivery__description">
-					Мы гарантированно доставим вашу пиццу за&nbsp;30&nbsp;минут с&nbsp;момента оформления заказа. Если мы опоздаем даже на&nbsp;1&nbsp;минуту - вы получаете весь заказ бесплатно и ваучер на&nbsp;скидку на&nbsp;следующий заказ. Мы гордимся нашим сервисом и сделаем всё, чтобы наш клиент был доволен и не&nbsp;остался голодный!
-				</p>
-			</div>
+			<h2 class="delivery__title">
+				Хватит думать!
+				<br/>
+				Доставим заказ за 30 минут!
+			</h2>
+			<p class="delivery__description">
+				Мы гарантированно доставим вашу пиццу за&nbsp;30&nbsp;минут с&nbsp;момента оформления заказа. Если мы опоздаем даже на&nbsp;1&nbsp;минуту - вы получаете весь заказ бесплатно и ваучер на&nbsp;скидку на&nbsp;следующий заказ. Мы гордимся нашим сервисом и сделаем всё, чтобы наш клиент был доволен и не&nbsp;остался голодный!
+			</p>
 			<form class="delivery-form delivery__form" action="/" method="post">
 				<input class="delivery-form__input" type="text" placeholder="Ваше имя" autocomplete="name" required>
 				<input class="delivery-form__input" type="text" autocomplete="street-address" placeholder="Адрес доставки" required>
