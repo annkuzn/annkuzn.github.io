@@ -5,6 +5,7 @@
 	grid-template-areas: 
 		"title form ."
 		"description form .";
+
 	@media (max-width: 1280px) {
 		grid-template-columns: 6fr 6fr;
 		grid-template-areas: 
