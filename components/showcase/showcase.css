@@ -64,6 +64,8 @@
 	display: flex;
 	width: 203px;
 	height: 143px;
+
+	cursor: pointer;
 }
 
 .pizza-card__img-container.full-size {
@@ -132,10 +134,15 @@
 	background-color: var(--yellow);
 
 	transition: 0.3s;
+	cursor: pointer;
 
 	@media (max-width: 768px) {
 		padding: 12px 42px;
 	}
+}
+
+.pizza-card__button:hover {
+	background-color: var(--brown);
 }
 
 .pizza-card__button:active {

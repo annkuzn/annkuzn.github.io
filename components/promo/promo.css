@@ -25,10 +25,15 @@
 	background-color: var(--yellow);
 
 	transition: 0.3s;
+	cursor: pointer;
 
 	@media (max-width: 768px) {
 		padding: 12px 42px;
 	}
+}
+
+.promo__button:hover {
+	background-color: var(--brown);
 }
 
 .promo__button:active {
