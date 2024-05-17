@@ -19,9 +19,7 @@
 .promo__button {
 	padding: 22px 52px;
 
-	text-wrap: nowrap;
 	border: none;
-	color: var(--deep-dark);
 	background-color: var(--yellow);
 
 	transition: 0.3s;
@@ -30,6 +28,12 @@
 	@media (max-width: 768px) {
 		padding: 12px 42px;
 	}
+}
+
+.promo__button-text {
+	font-family: inherit;
+	text-wrap: nowrap;
+	color: var(--deep-dark);
 }
 
 .promo__button:hover {
