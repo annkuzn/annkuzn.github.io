@@ -13,16 +13,14 @@ deliveryForm.addEventListener('submit', async (e) => {
 		return acc;
 	}, []);
 
-	fetch('http://localhost:3000', {
+	fetch('', {
 		method: "POST",
 		body: JSON.stringify(data),
-	})
-	.then(response => response.json())
-	.then(() => {
-		const body = document.querySelector('body');
+	});
+	
+	const body = document.querySelector('body');
 
-		body.classList.add('popup-open');
-	})
+	body.classList.add('popup-open');
 });
 
 deliveryForm.elements.name.addEventListener('input', (e) => {
